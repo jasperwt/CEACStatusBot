@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
   schedule:
   - cron: '0 9 * * *' # 9 AM
-  - cron: '0 12 * * *' # 12 PM
-  - cron: '0 17 * * *' # 5 PM
-  - cron: '0 22 * * *' # 10 PM
+  # - cron: '0 12 * * *' # 12 PM
+  # - cron: '0 17 * * *' # 5 PM
+  # - cron: '0 22 * * *' # 10 PM
 
 jobs:
   build:
